@@ -16,7 +16,7 @@ def lookup_app(m=None, name=None):
     full = running.get(name)
     if not full:
         return
-    for app in ui.apps():
+    for app in ui.apps:
         if app.name == full:
             return app
 
@@ -51,7 +51,7 @@ ctx.keymap(
     }
 )
 
-hardcoded_application_names = {"term": "iTerm2", "ink": "Inkdrop"}
+hardcoded_application_names = {"subliminal": "Sublime Text", "calligraphy": "Calendar", "term": "iTerm2", "ink": "Inkdrop"}
 
 
 def update_lists():
