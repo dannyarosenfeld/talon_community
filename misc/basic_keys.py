@@ -19,7 +19,7 @@ simple_keys = normalise_keys(
         "chris": "right",
         "jeep": "up",
         "( dune | doom )": "down",
-        "( backspace | junk )": "backspace",
+        "( back | junk )": "backspace",
         "(delete | forward delete | scrap | spunk)": "delete",
         "(space | skoosh)": "space",
         "(tab | tarp)": "tab",

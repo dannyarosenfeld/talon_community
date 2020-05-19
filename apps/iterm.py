@@ -18,6 +18,23 @@ keymap = {
 	"opower":"opower",
 	"out":"out",
 	"ops":"ops",
+
+    "select":"select ",
+    "star":" * ",
+    "from":"from ",
+    "customer": " customer c",
+    "join": " join ",
+    "utility account":" utility_acct ua",
+    "on":" on ",
+    "custom": "customer_notification_contact cnc",
+    "contact":"contact",
+    "preferences":"preferences",
+    "eyed":".id",
+
+    "left": Key("alt-left"),
+    "right": Key("alt-right"),
+    "back": Key("backspace"),
+
     "broadcaster": Key("cmd-alt-i"),
     "password": Key("cmd-alt-f"),
     # Pane creation and navigation
