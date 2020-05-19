@@ -129,6 +129,8 @@ keymap = {
     ),
     "do park": [dubclick, Key("cmd-v")],
     "do koosh": [dubclick, Key("cmd-c")],
+    "copy": Key("cmd-c"),
+    "paste": Key("cmd-v"),
     "wheel down": mouse_smooth_scroll(250),
     "wheel up": mouse_smooth_scroll(-250),
     "wheel down here": [mouse_center, mouse_smooth_scroll(250)],

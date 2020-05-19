@@ -1,4 +1,4 @@
-from talon.voice import Context, ContextGroup
+from talon.voice import Context, ContextGroup, press
 from talon.engine import engine
 from talon_plugins import speech
 
@@ -42,6 +42,7 @@ def set_voice_type(type):
     global engine
     if dragon_enabled:
         engine.mimic("wake up".split())
+        press("cmd-e")
     else:
         engine.mimic("go to sleep".split())
 
@@ -54,9 +55,9 @@ sleepy.keymap(
     {
         "talon sleep": lambda m: set_voice_type(VoiceType.SLEEPING),
         "talon wake": lambda m: set_voice_type(last_voice_type),
-        "dragon mode": lambda m: set_voice_type(VoiceType.DRAGON),
+        "dragon": lambda m: set_voice_type(VoiceType.DRAGON),
         "dictation mode": lambda m: set_voice_type(VoiceType.DICTATION),
-        "talon mode": lambda m: set_voice_type(VoiceType.TALON),
+        "wake up": lambda m: set_voice_type(VoiceType.TALON),
     }
 )
 sleep_group.load()
