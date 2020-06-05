@@ -15,9 +15,16 @@ keymap = {
     "drill":"../",
     "head": "head ",
 
-	"opower":"opower",
+	"opower":"opower/",
 	"out":"out",
 	"ops":"ops",
+    "bin":"bin",
+
+    "pigeon":"pgn",
+     "aps":"aps",
+    "stage":"stage",
+    "prod":"prod",
+    "bin":"bin",
 
     "select":"select ",
     "star":" * ",
@@ -30,7 +37,23 @@ keymap = {
     "contact":"contact",
     "preferences":"preferences",
     "eyed":".id",
+     "ear":"_id",
+    "rate":"rate",
+    "code":"code",
+    "util":"util",
 
+     "data": "dbs rss ",
+     "servers": "which_servers -c",
+     "gateway": "ssh stage-bertha-gateway",
+     "make": "mkdir ",
+     "batch": "cd /nfs/bertha-platform-share/alerts/",
+     "mailing": "dannyarosenfeld@gmail.com",
+     "mailing2": "daniel.rosenfeld.sharp@oracle.com",
+     "shell": "ssh prod-ie-shell-1001",
+     "tables": "show tables;",
+
+
+    "wack":Key("ctrl-w"),
     "left": Key("alt-left"),
     "right": Key("alt-right"),
     "back": Key("backspace"),

@@ -12,10 +12,13 @@ keymap = {
 "join": " join ",
 "utility account":" utility_acct ua",
 "on":" on ",
-"custom": "customer_notification_contact cnc",
+"custom": " customer_notification_contact cnc",
+"service point":" service_point",
+"util":" util_",
 "contact":"contact",
 "preferences":"preferences",
-"eyed":".id"
+"eyed":".id",
+"bop":"_id"
 
 }
 
